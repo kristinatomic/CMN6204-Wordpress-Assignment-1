@@ -3,8 +3,9 @@
 <head>
 	<title>
 		<?php 
-		bloginfo('name');
-		bloginfo('description'); 
+     echo
+      get_bloginfo('name').' ~ '.
+      get_bloginfo('description');	 
 		?>
 
 	</title>
