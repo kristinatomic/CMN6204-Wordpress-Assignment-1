@@ -8,14 +8,25 @@
       get_bloginfo('description');	 
 		?>
 
+
+
 	</title>
 </head>
 <body>
 
-<nav>
-	<ul>
-		<li>PONEDELJAK</li>
-		<li>UTORAK</li>
-		<li>SREDA</li>
-	</ul>	
+<nav id="main manu">
+	<?php wp_nav_menu([
+		'theme_location' =>'main']);?>
+
+
+	
 </nav>
+
+
+
+
+
+
+
+
+
